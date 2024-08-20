@@ -19,7 +19,7 @@ label.Parent = main
 label.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
 label.Size = UDim2.new(0, 100, 0, 20)
 label.Font = Enum.Font.SourceSans
-label.Text = "combat surf"
+label.Text = "made by em"
 label.TextColor3 = Color3.fromRGB(0, 0, 0)
 label.TextScaled = true
 label.TextSize = 5.000
@@ -31,11 +31,11 @@ Hitbox.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 Hitbox.Position = UDim2.new(0.114285722, 0, 0.372448981, 0)
 Hitbox.Size = UDim2.new(0, 90, 0, 40)
 Hitbox.Font = Enum.Font.SourceSans
-Hitbox.Text = "made by em"
+Hitbox.Text = "expand!"
 Hitbox.TextColor3 = Color3.fromRGB(0, 0, 0)
 Hitbox.TextSize = 40.000
 Hitbox.MouseButton1Down:connect(function()
-    _G.HeadSize = 20
+    _G.HeadSize = 75
  
     _G.Disabled = true
  
